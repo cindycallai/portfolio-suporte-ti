@@ -6,6 +6,7 @@ Portfólio profissional de suporte técnico em TI com foco em Linux, SaaS e Zabb
 Sou uma profissional de suporte técnico com experiência em ambientes Linux, monitoramento de infraestrutura e atendimento ao cliente. Tenho um perfil analítico, foco em resolução de problemas e uma boa comunicação com equipes técnicas e usuários finais. Trabalho com sistemas SaaS, suporte a servidores, e monitoramento de hosts utilizando o Zabbix.
 
 **Habilidades Técnicas**
+
 Sistemas Operacionais: Linux (Ubuntu, Debian, CentOS)
 
 Monitoramento: Zabbix (configuração de hosts, triggers, templates e mapas)
@@ -22,8 +23,8 @@ Ferramentas: SSH, SCP, rsync, systemd, journalctl, Git
 
 **Projetos e Realizações**
 1. Monitoramento de Hosts com Zabbix
-2. 
-Criação e manutenção de dashboards para servidores Linux e serviços essenciais.
+   
+2. Criação e manutenção de dashboards para servidores Linux e serviços essenciais.
 
 Implementação de alertas personalizados e gatilhos automáticos e criação de templates.
 
