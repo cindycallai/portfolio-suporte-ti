@@ -140,3 +140,5 @@ GitHub: github.com/cindycallai
 LinkedIn: linkedin.com/in/cindy-callai-braun-bitencourt-153b5287/
 
 E-mail: cindycallaibraun@yahoo.com.br
+
+“A tecnologia só tem valor quando resolve um problema real. Meu trabalho é garantir que ela funcione quando você mais precisa.”
