@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Visitas Técnicas</title>
+  <link rel="icon" href="assets/logo.png" type="image/png" />
+  <link rel="stylesheet" href="style/styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <h1>Cadastro de Visita Técnica</h1>
+    <form id="visita-form">
+
+      <label for="tecnico">Nome do Técnico *</label>
+      <input type="text" id="tecnico" name="tecnico" />
+
+      <label for="email">E-mail do Técnico *</label>
+      <input type="email" id="email" name="email" />
+
+      <label for="cliente">Nome do Cliente *</label>
+      <input type="text" id="cliente" name="cliente" required />
+
+      <label for="grupo">Nome do Grupo (opcional)</label>
+      <input type="text" id="grupo" name="grupo" />
+
+      <label for="cidade">Cidade do Cliente *</label>
+      <input type="text" id="cidade" name="cidade" required />
+
+      <label for="dataini">Data de Início *</label>
+      <input type="date" id="dataini" name="dataini" required />
+
+      <label for="datafim">Data de Fim *</label>
+      <input type="date" id="datafim" name="datafim" required />
+
+      <label for="motivo">Motivo da Visita *</label>
+      <select id="motivo" name="motivo" required>
+        <option value="">--Selecione--</option>
+        <option value="manutencao">Manutenção</option>
+        <option value="instalacao">Instalação</option>
+        <option value="reinstalacao">Reinstalação</option>
+        <option value="reposicionamento">Reposicionamento</option>
+      </select>
+
+      <label for="imagens">Imagens da Visita</label>
+      <input type="file" id="imagens" name="imagens" multiple accept="image/*" />
+
+      <label for="documentos">Documentos da Visita</label>
+      <input type="file" id="documentos" name="documentos" multiple accept="documentos/*" />
+
+      <label for="observacoes">Observações</label>
+      <textarea id="observacoes" name="observacoes"></textarea>
+
+      <label for="hotel">Hotéis onde se hospedou</label>
+      <textarea id="hotel" name="hotel"></textarea>
+
+      <label for="restaurante">Restaurantes onde almoçou/jantou</label>
+      <textarea id="restaurante" name="restaurante"></textarea>
+      
+      <label for="cidade">Sobre a cidade/estrutura</label>
+      <textarea id="cidade" name="cidade"></textarea>
+
+      <button type="submit" class="botoes">Enviar</button>
+      <button type="submit" class="botoes">Novo Formulário</button>
+      <button type="submit" class="botoes">Limpar Fomrulário</button>
+    </form>
+    <div id="status"></div>
+  </div>
+  <script src="js/main.js"></script>
+</body>
+</html>
