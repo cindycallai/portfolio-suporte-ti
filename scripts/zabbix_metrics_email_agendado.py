@@ -33,8 +33,8 @@ def call_zabbix_api(method, params):
 
 # Função para enviar e-mail com anexo
 def send_email_with_attachment(file_path, recipients):
-    email_from = "cindy.braun@cromai.com"  # Altere para o seu e-mail
-    email_password = "livy hnir hand wkcc"  # Altere para a sua senha
+    email_from = ""  # Altere para o seu e-mail
+    email_password = ""  # Altere para a sua senha
 
     msg = MIMEMultipart()
     msg['From'] = email_from
