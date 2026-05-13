@@ -251,6 +251,7 @@ while ($true) {
             Write-Host "Saindo..." -ForegroundColor Yellow
             exit
         }
+        
         default {
             Write-Host "Opcao invalida" -ForegroundColor Red
             Pause

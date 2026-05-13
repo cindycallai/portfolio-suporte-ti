@@ -1,0 +1,12 @@
+{
+    "name": "cadastro-visitas",
+    "version": "1.0.0",
+    "description": "Sistema demonstrativo de cadastro de visitas técnicas",
+    "main": "index.html",
+    "scripts": {
+      "start": "live-server"
+    },
+    "dependencies": {},
+    "devDependencies": {}
+  }
+  
