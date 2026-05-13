@@ -11,10 +11,10 @@ import schedule
 import time
 
 # Zabbix API key
-api_key = "e359306592e9f4f6f3876d452733f2dcacc2c5e8c2606f4468dc9ce13f67ef36"
+api_key = ""
 
 # Zabbix API URL
-url = "http://35.208.97.77/zabbix/api_jsonrpc.php"
+url = ""
 
 # Lista de hosts a serem excluídos
 hosts_to_exclude = ["GCP Server Zabbix"]  # Adicione os hosts que deseja excluir
